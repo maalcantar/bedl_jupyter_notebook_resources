@@ -3,7 +3,7 @@
 Jupyter notebooks are a great environment for interactively working with code.
 
 ## Installing Jupyter Notebook 
-The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped with several useful packages (e.g.,  NumPy, pandas, and Matplotlib), and makes installing new packages very simple (see [Installing and using new packages](#installing-and-using-new-packages)). In order to install Anaconda, you should:
+The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped Jupyter Notebook, and makes managing and installing new packages very simple (see [Installing and using new packages section below](#installing-and-using-new-packages)). In order to install Anaconda, you should:
 
 1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8). The installer you download will depend on the specifications of the machine you are using.
 2. Open the .exe file you just downloaded, and follow the instructions.
@@ -26,9 +26,23 @@ plt.show()
 ```
 In this case, we are importing the matplotlib package (specifically, the collection of methods in pyplot) and then using this package to create a plot of our data. 
 
-Matplotlib is actually one of the packages that is pre-installed by Anaconda. New packages can be installed using the pip command. For instance, the machine learning library PyTorch can be installed by running the following in the command line:
-
+Packages can be installed using the pip command. For instance, the machine learning library PyTorch can be installed by running the following in the command line:
 
 ```bash
-pip install torch
+pip install matplotlib
 ```
+
+You can also specify the version number of the package you want to install
+
+```bash
+pip install matplotlib==3.4.2
+```
+
+Multiple packages can be installed simultaneously by separating each package by a space
+
+```bash
+pip install matplotlib==3.4.2 networkx==2.5.1 scikit-learn==0.24.2
+```
+
+
+
