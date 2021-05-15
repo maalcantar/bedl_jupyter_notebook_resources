@@ -3,7 +3,7 @@
 Jupyter notebooks are a great environment for interactively working with code.
 
 ## Installing Jupyter Notebook 
-The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped with several useful packages (e.g.,  NumPy, pandas, and Matplotlib), and makes installing new packages very simple (more on this later). In order to install Anaconda, you should:
+The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped with several useful packages (e.g.,  NumPy, pandas, and Matplotlib), and makes installing new packages very simple (see [Installing and using new packages](#installing-and-using-new-packages)). In order to install Anaconda, you should:
 
 1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8). The installer you download will depend on the specifications of the machine you are using.
 2. Open the .exe file you just downloaded, and follow the instructions.
