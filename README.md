@@ -1,14 +1,16 @@
 # BEDL Jupyter Notebook Resources
 
-Jupyter Notebook provides a great environment for interactively working with code. Working in a Jupyter Notebook allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text using [Markdown](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd), all in a single document! These features make Jupyter Notebook a useful tool for exploratory data analysis, debugging, and sharing code / results with collaborators. Additionally, there are some nifty features that can greatly help with organizing your coding projects. While Jupyter Notebook is a convenient environment for writing code and visualizing results, there is somewhat of a learning curve to effectively working in and setting up a Jupyter Notebook environment. 
+Jupyter Notebook provides a great environment for interactively working with code. Working in a Jupyter Notebook allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text using [Markdown](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd), all in a single document! These features make Jupyter Notebook a useful tool for exploratory data analysis, debugging, and sharing code / results with collaborators. Additionally, there are some nifty features that can greatly help with organizing your coding projects. 
 
-This GitHub repository is meant to quickly get you set up and familiarized with Jupyter Notebook, such that you get the most out of Jupyter Notebook while working on your coding projects! The repository contains the following main documents:
+While Jupyter Notebook is a convenient environment for writing code and visualizing results, there is somewhat of a learning curve to effectively working in and setting up a Jupyter Notebook environment. 
+
+This GitHub repository is meant to quickly get you set up and familiarized with Jupyter Notebook, such that you get the most out of Jupyter Notebook while working on your coding projects! The repository contains the following documents:
 
 <code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](installing-new-packages) iii) [creating and using virtual envionments](staying-organized-with-virtual-environments) and iv) [using utils.py files](working-with-a-utils.py-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](other-great-resources-and-examples).
 
 <code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about jupyter notebooks. 
 
-If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/). 
+If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/)!
 
 ## Installing Jupyter Notebook 
 The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped Jupyter Notebook and makes managing and installing new packages very simple (see [Installing and using new packages section](#installing-new-packages) below). In order to install Anaconda, you should:
@@ -24,7 +26,7 @@ If this opens a new tab in your default web browser with the Jupyter logo in the
 
 <img width="1315" alt="Screen Shot 2021-05-16 at 12 12 30 AM" src="https://user-images.githubusercontent.com/43210496/118385243-69a7c500-b5db-11eb-93f2-52959f4b4dd2.png">
 
-Quick note: If you want to work with an older version of Python, we still recommend you download the latest version of Anaconda and create a virtual environment with the specific python version you want. You can technically install an older version of Anaconda / Python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version of Anaconda. 
+Note: If you want to work with an older version of Python, we still recommend you download the latest version of Anaconda and create a virtual environment with the specific python version you want. You can technically install an older version of Anaconda / Python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version of Anaconda in order to avoid any compatability issues.
 
 ## Installing new packages
 
@@ -92,7 +94,7 @@ pip install --user ipykernel
 ```bash
 python -m ipykernel install --user --name=bedl_virtual_env
 ```
-If you followed these steps, the next time you open Jupyter Notebook, you should be able to open a kernel with your new virtual environment
+If you followed these steps, the next time you open Jupyter Notebook you should be able to open notebooks in your new virtual environment: just click "New" in the top-right, and select the virtual environment your want (see image below).
 
 <img width="540" alt="Screen Shot 2021-05-16 at 12 35 44 PM" src="https://user-images.githubusercontent.com/43210496/118404969-3ef15700-b643-11eb-8d74-4dd6621f9ce9.png">
 
