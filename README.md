@@ -107,18 +107,18 @@ Hopefully this resource has helped you get set up and familiarized with Jupyter 
 
 More introductions to Jupyter Notebook:
 
-https://realpython.com/jupyter-notebook-introduction/
-https://programminghistorian.org/en/lessons/jupyter-notebooks
-https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+- https://realpython.com/jupyter-notebook-introduction/
+- https://programminghistorian.org/en/lessons/jupyter-notebooks
+- https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 Example notebook on Google Colab (a platform for collaboratively working with Jupyter Notebooks):
 
-https://colab.research.google.com/github/jckantor/CBE30338/blob/master/docs/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb
+- https://colab.research.google.com/github/jckantor/CBE30338/blob/master/docs/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb
 
 Additional jupyter notebook examples & tutorials: 
 
-https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+- https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
 Advanced jupyter notebook tricks:
 
-https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
+- https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
