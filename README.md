@@ -48,7 +48,7 @@ Multiple packages can be installed simultaneously by separating each package nam
 pip install matplotlib==3.4.2 networkx==2.5.1 scikit-learn==0.24.2
 ```
 
-Once packages are installed, they can be imported and used in Jupyter Notebook. For example, we could use the MatPlotLib library to plot some data. For example, if you have used python in the past, you may be familiar with the following block of code:
+Once packages are installed, they can be imported and used in Jupyter Notebook. For example, we could use the MatPlotLib library to plot some data --- if you have used python in the past, you may be familiar with the following block of code:
 
 ```python 
 import matplotlib.pyplot as plt
@@ -57,10 +57,10 @@ plt.show()
 ```
 
 ## Staying organized with virtual environments
-Virtual environments are isolated coding environments that can help keep your coding projects organized. In brief, virtual environments are great for managing different projects and the corresponding packages required to run code for each project. Virtual environments can also keep your code reproducible, and can even help avoiding package conflicts. See Jackie + Divya's resource for more info (insert hyperlink). 
+Virtual environments are isolated coding environments that can help keep your coding projects organized. In brief, virtual environments are great for managing different projects and the corresponding packages required to run code for each project. Virtual environments can also keep your code reproducible, and can even help avoid package conflicts. See Jackie + Divya's resource for more info (insert hyperlink). 
 
-Thankfully, virtual environments interface well with Jupyter Notebook and you can quickly set up a new virtual environment by entering the following in the command link:
-1. Create new virtual environment
+Thankfully, virtual environments interface well with Jupyter Notebook and you can quickly set up a new virtual environment by following these steps in the command line :
+1. Create new virtual environment 
 ```bash
 conda create -n bedl_virtual_env python=3.8
 ```
