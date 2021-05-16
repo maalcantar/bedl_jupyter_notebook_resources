@@ -3,7 +3,7 @@
 Jupyter notebooks are a great environment for interactively working with code.
 
 ## Installing Jupyter Notebook 
-The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped Jupyter Notebook, and makes managing and installing new packages very simple (see [Installing and using new packages section below](#installing-and-using-new-packages)). In order to install Anaconda, you should:
+The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped Jupyter Notebook and makes managing and installing new packages very simple (see [Installing and using new packages section](#installing-and-using-new-packages) below). In order to install Anaconda, you should:
 
 1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8). The installer you download will depend on the specifications of the machine you are using.
 2. Open the .exe file you just downloaded, and follow the instructions.
@@ -12,13 +12,13 @@ The easiest way to get started with Jupyter Notebooks is by installing [Anaconda
 ```bash
 jupyter notebook
 ```
-If this opens a new tab in your default web browser with the Jupyter logo in the top-left, the installation was successful and you should be good to go!
+If this opens a new tab in your default web browser with the Jupyter logo in the top-left, the installation was successful and you should be good to go! If the installation was not successful, double-check to make sure you downloaded the correct installer. 
 
-Quick note: If you want to work with an older version of Python, we recommend you still download the latest version of Anaconda and create a virtual environment with the specific python version you want. You can technically install an older version of Anaconda / python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version such that your Anaconda installation is up-to-date. 
+Quick note: If you want to work with an older version of Python, we still recommend you download the latest version of Anaconda and create a virtual environment with the specific python version you want. You can technically install an older version of Anaconda / python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version such that your Anaconda installation is up-to-date. 
 
 ## Installing new packages
 
-One of the nifty features of Anaconda and Jupyter Notebooks is that they make installing new packages relatively simple. Packages are openly available modules of code that you can use to perform specific functions in your code. 
+One of the many nifty features of Anaconda and Jupyter Notebooks is that they make installing new packages relatively simple. Packages are openly available modules of code that you can use to perform specific functions in your code. 
 
 Packages can be installed using the pip command. For instance, the popular plotting package MatPlotLib can be installed by running the following in the command line:
 
@@ -86,3 +86,21 @@ If you followed these steps, the next time you open Jupyter Notebook, you should
 <img width="403" alt="Screen Shot 2021-05-15 at 10 51 10 PM" src="https://user-images.githubusercontent.com/43210496/118383894-10866400-b5d0-11eb-91bf-73bddd3d4854.png">
 
 ## Working with a utils.py file
+Throughout your coding endeavors, you may find yourself performing the same tasks / functions in multiple notebook files. Instead of created the same function over and over in each notebook file, jupyter notebooks actually let you define the function once in a script (commonly called a utils.py file) and import those functions into each Jupyter notebook. Please see FAQs notebook for an example.
+
+## Other great resources and examples
+
+This resource is not comprehensive, please seee these:
+
+ntros: 
+https://realpython.com/jupyter-notebook-introduction/
+https://programminghistorian.org/en/lessons/jupyter-notebooks
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+
+Example notebook on google colab: https://colab.research.google.com/github/jckantor/CBE30338/blob/master/docs/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb
+
+Solid repo with lots of jupyter notebook examples & tutorials: https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+
+Advanced jupyter notebook tricks: https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
+
+If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/). 
