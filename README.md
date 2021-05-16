@@ -20,7 +20,9 @@ The easiest way to get started with Jupyter Notebooks is by installing [Anaconda
 ```bash
 jupyter notebook
 ```
-If this opens a new tab in your default web browser with the Jupyter logo in the top-left, the installation was successful and you should be good to go! If the installation was not successful, double-check to make sure you downloaded the correct installer. 
+If this opens a new tab in your default web browser with the Jupyter logo in the top-left (see image below) the installation was successful and you should be good to go! If the installation was not successful, double-check to make sure you downloaded the correct installer. 
+
+<img width="1315" alt="Screen Shot 2021-05-16 at 12 12 30 AM" src="https://user-images.githubusercontent.com/43210496/118385243-69a7c500-b5db-11eb-93f2-52959f4b4dd2.png">
 
 Quick note: If you want to work with an older version of Python, we still recommend you download the latest version of Anaconda and create a virtual environment with the specific python version you want. You can technically install an older version of Anaconda / python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version such that your Anaconda installation is up-to-date. 
 
