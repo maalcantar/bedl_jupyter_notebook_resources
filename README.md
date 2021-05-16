@@ -1,6 +1,14 @@
 # BEDL Jupyter Notebook Resources
 
-Jupyter notebooks are a great environment for interactively working with code.
+Jupyter notebooks provide a great environment for interactively working with code. Coding in a Jupyter notebooks allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text in the form of markdown, all in a single document! These features make jupyter notebooks a useful tool for exploratory data analysis, debugging code, and sharing code / results with collaborators. 
+
+This GitHub repository is meant to quickly get you set up and familiarized with Jupyter notebook. The structure of this repository is as follows:
+
+<code>README.md</code>: The README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](installing-new-packages) iii) [creating and using virtual envionments](staying-organized-with-virtual-environments) and iv) [using utils.py files](working-with-a-utils.py-file). The end of the document also contains links to other useful resources for Jupyter Notebook
+
+<code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: this example notebook contains answers (in the form of code implementations) to several frequently asked questions people have about jupyter notebooks. 
+
+If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/). 
 
 ## Installing Jupyter Notebook 
 The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped Jupyter Notebook and makes managing and installing new packages very simple (see [Installing and using new packages section](#installing-and-using-new-packages) below). In order to install Anaconda, you should:
@@ -102,5 +110,3 @@ Example notebook on google colab: https://colab.research.google.com/github/jckan
 Solid repo with lots of jupyter notebook examples & tutorials: https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
 Advanced jupyter notebook tricks: https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
-
-If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/). 
