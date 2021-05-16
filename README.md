@@ -4,7 +4,7 @@ Jupyter Notebook provides a great environment for interactively working with cod
 
 This GitHub repository is meant to quickly get you set up and familiarized with Jupyter Notebook, such that you get the most out of Jupyter Notebook while starting up your coding projects! The repository contains the following documents:
 
-<code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](installing-new-packages) iii) [creating and using virtual envionments](staying-organized-with-virtual-environments) and iv) [using utils.py files](working-with-a-utils.py-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](other-great-resources-and-examples).
+<code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](installing-jupyter-notebook) ii) [installing new packages](installing-new-packages) iii) [creating and using virtual envionments](staying-organized-with-virtual-environments) and iv) [using utils.py files](working-with-a-utils.py-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](other-great-resources-and-examples).
 
 <code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about jupyter notebooks. 
 
