@@ -103,7 +103,7 @@ Throughout your coding endeavors, you may find yourself performing the same task
 
 ## Other great resources and examples
 
-Hopefully this resource has helped you get set up and familiarized with Jupyter Notebook. This is of course not an exhaustive guide to everything Jupyter Notebook has to offer, so we encourage you to learn more about additional Jupyter Notebook features by checking out some useful online resources:
+Hopefully this resource has helped you get set up and familiarized with Jupyter Notebook. This is of course, however, not an exhaustive guide to everything Jupyter Notebook has to offer, so we encourage you to learn more about additional Jupyter Notebook features by checking out some useful online resources:
 
 More introductions to Jupyter Notebook:
 
