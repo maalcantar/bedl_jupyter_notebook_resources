@@ -13,7 +13,7 @@ If you have any questions or have suggestions for how to improve this repository
 ## Installing Jupyter Notebook 
 The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped with Jupyter Notebook and makes managing and installing new packages very simple (see [Installing and using new packages section](#installing-new-packages) below). In order to install Anaconda, you should:
 
-1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8). The installer you download will depend on the specifications of the machine you are using.
+1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8 as of May 2021). The installer you download will depend on the specifications of the machine you are using.
 2. Open the .exe file you just downloaded, and follow the instructions.
 3. To make sure the installation went smoothly, open your command line and enter.
 
