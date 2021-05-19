@@ -6,7 +6,7 @@ This GitHub repository is meant to quickly get you set up and familiarized with 
 
 <code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](#installing-new-packages) iii) [creating and using virtual envionments](#staying-organized-with-virtual-environments) and iv) [using utils.py files](#working-with-a-utilspy-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](#other-great-resources-and-examples).
 
-<code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about jupyter notebooks. 
+<code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about Jupyter Notebooks. 
 
 If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/)!
 
