@@ -6,15 +6,15 @@ This GitHub repository is meant to quickly get you set up and familiarized with 
 
 <code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](#installing-new-packages) iii) [creating and using virtual envionments](#staying-organized-with-virtual-environments) and iv) [using utils.py files](#working-with-a-utilspy-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](#other-great-resources-and-examples).
 
-<code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about jupyter notebooks. 
+<code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about Jupyter Notebooks. 
 
 If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/)!
 
 ## Installing Jupyter Notebook 
 The easiest way to get started with Jupyter Notebooks is by installing [Anaconda](https://www.anaconda.com/products/individual#Downloads). Anaconda is a popular Python distribution which comes pre-equipped with Jupyter Notebook and makes managing and installing new packages very simple (see [Installing and using new packages section](#installing-new-packages) below). In order to install Anaconda, you should:
 
-1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8). The installer you download will depend on the specifications of the machine you are using.
-2. Open the .exe file you just downloaded, and follow the instructions.
+1. [Download](https://www.anaconda.com/products/individual#Downloads) the latest version of Anaconda (i.e., Python 3.8 as of May 2021). The installer you download will depend on the specifications of the machine you are using.
+2. If you are downloading packages locally, open the .exe file you just downloaded, and follow the instructions.
 3. To make sure the installation went smoothly, open your command line and enter.
 
 ```bash
