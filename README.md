@@ -1,7 +1,11 @@
 # BEDL Jupyter Notebook Resources
 
-Jupyter Notebook provides a great environment for interactively working with code. Working in a Jupyter Notebook allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text using [Markdown](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd), all in a single document! These features make Jupyter Notebook a useful tool for exploratory data analysis, debugging, and sharing code / results with collaborators. Additionally, there are some nifty features that can help with organizing your coding projects. 
+## Why should I use a Jupyter notebook?
+There are many ways to write reproducible code. While editors like PyCharm and RStudio offer similar, notebook-based coding environments, Jupyter Notebook is one of the most popular ways to interact with, share, and write code. If you work in a data science field, especially applying computational analyses to biology, chances are you will run into a Jupyter Notebook or Colab notebook at least once. Being familar with the interface is an important skill for many applications, like working on homework for class, depositing your code for a journal article, and more!
 
+Working in a Jupyter Notebook allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text using [Markdown](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd), all in a single document! These features make Jupyter Notebook a useful tool for exploratory data analysis, debugging, and sharing code / results with collaborators. Additionally, there are some nifty features that can help with organizing your coding projects. 
+
+## This repository
 This GitHub repository is meant to quickly get you set up and familiarized with Jupyter Notebook, such that you get the most out of Jupyter Notebook while starting up your coding projects! The repository contains the following documents:
 
 <code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](#installing-new-packages) iii) [creating and using virtual envionments](#staying-organized-with-virtual-environments) and iv) [using utils.py files](#working-with-a-utilspy-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](#other-great-resources-and-examples).
@@ -57,7 +61,7 @@ plt.show()
 ```
 
 ## Staying organized with virtual environments
-Virtual environments are isolated coding environments that can help keep your coding projects organized. In brief, virtual environments are great for managing different projects and the corresponding packages required to run code for each project. Virtual environments can also keep your code reproducible, and can even help avoid package conflicts. See Jackie + Divya's resource for more info (insert hyperlink). 
+Virtual environments are isolated coding environments that can help keep your coding projects organized. In brief, virtual environments are great for managing different projects and the corresponding packages required to run code for each project. Virtual environments can also keep your code reproducible, and can even help avoid package conflicts. We recommend following guidelines from the BEDL virtual environment resource (link to BEDL venv resource here). 
 
 Thankfully, virtual environments interface well with Jupyter Notebook and you can quickly set up a new virtual environment by following these steps in the command line :
 1. Create new virtual environment 
