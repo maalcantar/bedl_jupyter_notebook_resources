@@ -112,6 +112,7 @@ More introductions to Jupyter Notebook:
 - https://realpython.com/jupyter-notebook-introduction/
 - https://programminghistorian.org/en/lessons/jupyter-notebooks
 - https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+- https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb
 
 Example notebook on Google Colab (a platform for collaboratively working with Jupyter Notebooks):
 
