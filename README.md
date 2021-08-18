@@ -61,7 +61,7 @@ plt.show()
 ```
 
 ## Staying organized with virtual environments
-Virtual environments are isolated coding environments that can help keep your coding projects organized. In brief, virtual environments are great for managing different projects and the corresponding packages required to run code for each project. Virtual environments can also keep your code reproducible, and can even help avoid package conflicts. We recommend following guidelines from the BEDL virtual environment resource (link to BEDL venv resource here). 
+Virtual environments are isolated coding environments that can help keep your coding projects organized. In brief, virtual environments are great for managing different projects and the corresponding packages required to run code for each project. Virtual environments can also keep your code reproducible, and can even help avoid package conflicts. We recommend following guidelines from the [BEDL virtual environment resource](https://docs.google.com/document/d/16B70h5ivdnTep0MciTdyx6BrMh3n5eL67T4K9tbHw5w/edit?usp=sharing). 
 
 Thankfully, virtual environments interface well with Jupyter Notebook and you can quickly set up a new virtual environment by following these steps in the command line :
 1. Create new virtual environment 
