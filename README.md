@@ -8,9 +8,9 @@ Working in a Jupyter Notebook allows you to simultaneously view your code and co
 ## This repository
 This GitHub repository is meant to quickly get you set up and familiarized with Jupyter Notebook, such that you get the most out of Jupyter Notebook while starting up your coding projects! The repository contains the following documents:
 
-<code>README.md</code>: This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](#installing-new-packages) iii) [creating and using virtual envionments](#staying-organized-with-virtual-environments) and iv) [using utils.py files](#working-with-a-utilspy-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](#other-great-resources-and-examples).
+[README.md](https://github.com/maalcantar/bedl_jupyter_notebook_resources/blob/main/README.md): This README document contains useful information for i) [installing Jupyter Notebook via Anaconda](#installing-jupyter-notebook) ii) [installing new packages](#installing-new-packages) iii) [creating and using virtual envionments](#staying-organized-with-virtual-environments) and iv) [using utils.py files](#working-with-a-utilspy-file). The end of the document also contains links to [other useful resources for Jupyter Notebook](#other-great-resources-and-examples).
 
-<code>Frequently_Asked_Questions_About_Jupyter.ipynb</code>: The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about Jupyter Notebooks. 
+[Frequently_Asked_Questions_About_Jupyter.ipynb](https://github.com/maalcantar/bedl_jupyter_notebook_resources/blob/main/Frequently_Asked_Questions_About_Jupyter.ipynb): The example notebook contains responses, in the form of code implementations, to several frequently asked questions people have about Jupyter Notebooks. We recommend downloading and running the Jupyter Notebook on your local machine -- this will allow you to interact with the notebook and view the embedded LaTeX equations.
 
 If you have any questions or have suggestions for how to improve this repository, please reach out to Jacqueline Valeri (valerij [at] mit.edu), Miguel Alcantar (alcantar [at] mit.edu), or any other BEDL fellow / staff (https://bedatalab.github.io/)!
 
