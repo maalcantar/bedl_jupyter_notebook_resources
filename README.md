@@ -1,7 +1,7 @@
 # BEDL Jupyter Notebook Resources
 
 ## Why should I use a Jupyter notebook?
-There are many ways to write reproducible code. While editors like PyCharm and RStudio offer similar, notebook-based coding environments, Jupyter Notebook is one of the most popular ways to interact with, share, and write code. If you work in a data science field, especially applying computational analyses to biology, chances are you will run into a Jupyter Notebook or Colab notebook at least once. Being familar with the interface is an important skill for many applications, like working on homework for class, depositing your code for a journal article, and more!
+There are many ways to write reproducible code. While editors like PyCharm and RStudio offer similar, notebook-based coding environments, Jupyter Notebook is one of the most popular ways to interact with, share, and write code. If you work in a data science field, especially applying computational analyses to biology, chances are you will run into a Jupyter Notebook or Google Colab notebook at least once. Being familiar with the interface is an important skill for many applications, like working on homework for class, depositing your code for a journal article, and more!
 
 Working in a Jupyter Notebook allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text using [Markdown](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd), all in a single document! These features make Jupyter Notebook a useful tool for exploratory data analysis, debugging, and sharing code / results with collaborators. Additionally, there are some nifty features that can help with organizing your coding projects. 
 
@@ -28,7 +28,7 @@ If this opens a new tab in your default web browser with the Jupyter logo in the
 
 <img width="1315" alt="Screen Shot 2021-05-16 at 12 12 30 AM" src="https://user-images.githubusercontent.com/43210496/118385243-69a7c500-b5db-11eb-93f2-52959f4b4dd2.png">
 
-Note: If you want to work with an older version of Python, we still recommend you download the latest version of Anaconda and just create a virtual environment with the specific python version you want. You can technically install an older version of Anaconda / Python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version of Anaconda in order to avoid any compatability issues.
+Note: If you want to work with an older version of Python, we still recommend you download the latest version of Anaconda and just create a virtual environment with the specific Python version you want. You can technically install an older version of Anaconda / Python from [archives](https://repo.anaconda.com/archive/), but we recommend sticking with the newer version of Anaconda in order to avoid any compatibility issues.
 
 ## Installing new packages
 
@@ -52,7 +52,7 @@ Multiple packages can be installed simultaneously by separating each package nam
 pip install matplotlib==3.4.2 networkx==2.5.1 scikit-learn==0.24.2
 ```
 
-Once packages are installed, they can be imported and used in Jupyter Notebook. For example, we could use the MatPlotLib library to plot some data --- if you have used python in the past, you may be familiar with the following block of code:
+Once packages are installed, they can be imported and used in Jupyter Notebook. For example, we could use the MatPlotLib library to plot some data --- if you have used Python in the past, you may be familiar with the following block of code:
 
 ```python 
 import matplotlib.pyplot as plt
@@ -68,7 +68,7 @@ Thankfully, virtual environments interface well with Jupyter Notebook and you ca
 ```bash
 conda create -n bedl_virtual_env python=3.8
 ```
-Note: you can name your virtual envionment whatever you want (change the variable after '-n') and also install whatever python version you want to work with (change the verison after 'python='. In the example above, we created a virtual environment called 'bedl_virtual_env' and installed python version 3.8. After entering this command, the terminal will prompt you and ask whether you want to install some default packages, which you can accept by entering 'y' (which stands for 'yes!')
+Note: you can name your virtual environment whatever you want (change the variable after '-n') and also install whatever Python version you want to work with (change the version after 'python='. In the example above, we created a virtual environment called 'bedl_virtual_env' and installed Python version 3.8. After entering this command, the terminal will prompt you and ask whether you want to install some default packages, which you can accept by entering 'y' (which stands for 'yes!')
 
 2. Activate new virtual environment
 You can activate the virtual environment using:
@@ -118,10 +118,10 @@ Example notebook on Google Colab (a platform for collaboratively working with Ju
 
 - https://colab.research.google.com/github/jckantor/CBE30338/blob/master/docs/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb
 
-Additional jupyter notebook examples & tutorials: 
+Additional Jupyter Notebook examples & tutorials: 
 
 - https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-Advanced jupyter notebook tricks:
+Advanced Jupyter Notebook tricks:
 
 - https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
