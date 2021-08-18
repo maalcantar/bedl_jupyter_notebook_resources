@@ -36,22 +36,22 @@ Note: If you want to work with an older version of Python, we still recommend yo
 
 One of the many useful features of Anaconda and Jupyter Notebook is that they make installing new packages relatively simple. Packages are openly available modules of code that you can use to perform specific functions in your code. 
 
-Packages can be installed using the pip command. For instance, the popular plotting package MatPlotLib can be installed by running the following in the command line:
+Packages can be installed using the conda command. For instance, the popular plotting package MatPlotLib can be installed by running the following in the command line:
 
 ```bash
-pip install matplotlib
+conda install matplotlib
 ```
 
 You can also specify the version number of the package you want to install
 
 ```bash
-pip install matplotlib==3.4.2
+conda install matplotlib=3.4.2
 ```
 
 Multiple packages can be installed simultaneously by separating each package name by a space
 
 ```bash
-pip install matplotlib==3.4.2 networkx==2.5.1 scikit-learn==0.24.2
+conda install matplotlib=3.4.2 networkx=2.5.1 scikit-learn=0.24.2
 ```
 
 Once packages are installed, they can be imported and used in Jupyter Notebook. For example, we could use the MatPlotLib library to plot some data --- if you have used Python in the past, you may be familiar with the following block of code:
@@ -60,6 +60,12 @@ Once packages are installed, they can be imported and used in Jupyter Notebook. 
 import matplotlib.pyplot as plt
 plt.plot(x_data, y_data)
 plt.show()
+```
+
+Packages can also be installed in a similar manner using pip. For example:
+
+```bash
+pip install matplotlib
 ```
 
 ## Staying organized with virtual environments
