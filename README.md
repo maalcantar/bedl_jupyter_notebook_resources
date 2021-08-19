@@ -1,7 +1,7 @@
 # BEDL Jupyter Notebook Resources
 
 ## Why should I use a Jupyter notebook?
-There are many ways to write reproducible code. While editors like PyCharm and RStudio offer similar, notebook-based coding environments, Jupyter Notebook is one of the most popular ways to interact with, share, and write code. If you work in a data science field, especially applying computational analyses to biology, chances are you will run into a Jupyter Notebook or Google Colab notebook at least once. Being familiar with the interface is an important skill for many applications, like working on homework for class, depositing your code for a journal article, and more!
+There are many ways to write reproducible code. While editors like PyCharm and RStudio offer similar, notebook-based coding environments, Jupyter Notebook is one of the most popular ways to interact with, share, and write code. If you work in a data science field, especially applying computational analyses to biology, chances are you will run into a Jupyter Notebook or Google Colab notebook (a platform for collaboratively working with Jupyter Notebooks) at least once. Being familiar with the interface is an important skill for many applications, like working on homework for class, depositing your code for a journal article, and more!
 
 Working in a Jupyter Notebook allows you to simultaneously view your code and corresponding outputs, as well as include explanatory text using [Markdown](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd), all in a single document! These features make Jupyter Notebook a useful tool for exploratory data analysis, debugging, and sharing code / results with collaborators. Additionally, there are some nifty features that can help with organizing your coding projects. 
 
@@ -122,7 +122,7 @@ More introductions to Jupyter Notebook:
 - https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 - https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb
 
-Example notebook on Google Colab (a platform for collaboratively working with Jupyter Notebooks):
+Example notebook on Google Colab:
 
 - https://colab.research.google.com/github/jckantor/CBE30338/blob/master/docs/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb
 
